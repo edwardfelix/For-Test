@@ -10,7 +10,7 @@ import { ContactPage } from '../contact/contact';
 export class HomePage {
 
   constructor(public navCtrl: NavController) {
-
+    alert("this is home page");
   }
 
   aboutpage()
