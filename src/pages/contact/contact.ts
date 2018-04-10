@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { AboutPage } from '../about/about';
+import { ServicesPage } from '../services/services';
 
 /**
  * Generated class for the ContactPage page.
@@ -21,5 +23,14 @@ export class ContactPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad ContactPage');
   }
+
+  aboutpage() {
+    this.navCtrl.push(AboutPage);
+  }
+
+  Servicepage() {
+    this.navCtrl.push(ServicesPage);
+  }
+
 
 }
