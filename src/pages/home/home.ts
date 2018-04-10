@@ -8,9 +8,9 @@ import { ContactPage } from '../contact/contact';
   templateUrl: 'home.html'
 })
 export class HomePage {
-
+  test:string = "hi";
   constructor(public navCtrl: NavController) {
-    alert("this is home page");
+    // alert("this is home page");
   }
 
   aboutpage()
