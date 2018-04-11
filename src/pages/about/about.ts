@@ -9,14 +9,14 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class AboutPage {
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
-  alert("this is hello from about us page");
   }
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad AboutPage');
   }
-
-
-
+  show()
+  {
+    alert("Hi , How are you?");
+  }
 
 }
