@@ -19,4 +19,9 @@ export class AboutPage {
     alert("Hi , How are you?");
   }
 
+
+  hello(){
+  /*fdsdfdgfd*/
+  }
+
 }
