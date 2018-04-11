@@ -21,5 +21,9 @@ export class AboutPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad AboutPage');
   }
+  show()
+  {
+    alert("Hi , How are you?");
+  }
 
 }
